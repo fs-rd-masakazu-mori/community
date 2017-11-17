@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+	<meta charset="UTF-8" />
+	<title>「万有引力」「ケプラーの第3法則」</title>
+	<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+	<script type="text/javascript" src="kepler.js"></script>
+	<link rel="stylesheet" href="universe.css" type="text/css" />
+</head>
+<body>
+	<div id="main">
+	<div id="gravity"><img src="earth.png" alt="gravity source"></div>
+	<div id="revolution0"><img src="gps.gif" alt="revolution target"></div>
+	</div>
+	<form name="data">
+	<table id="data">
+		<tr>
+		<th colspan="2">位置</th>
+		<th colspan="3">移動速度</th>
+		</tr>
+		<tr>
+		<th>x</th>
+		<th>y</th>
+		<th>dx</th>
+		<th>dy</th>
+		<th><nobr>総速度</nobr></th>
+		</tr>
+		<tr id="revolution0_data">
+		<td class="px"><input type="text" value="120" /></td>	<!-- 100 -->
+		<td class="py"><input type="text" value="0" /></td>
+		<td class="dx"><input type="text" value="0" /></td>		<!-- -0.7 -->
+		<td class="dy"><input type="text" value="1.38" /></td>	<!-- 100 -->
+		<td class="va"></td>
+		</tr>
+	</table>
+	<div id="msg"></div>
+	</form>
+	<table id="console">
+	<tr>
+		<td>
+		<div id="pause0"><img src="pause0.png" alt="pause"></div>
+		<div id="pause1"><img src="pause1.png" alt="pause"></div>
+		</td>
+		<td>
+		<div id="step0"><img src="step0.png" alt="step"></div>
+		<div id="step1"><img src="step1.png" alt="step"></div>
+		</td>
+		<td>
+		<div id="start0"><img src="start0.png" alt="start"></div>
+		<div id="start1"><img src="start1.png" alt="start"></div>
+		</td>
+	</tr>
+	</table>
+</body>
+</html>

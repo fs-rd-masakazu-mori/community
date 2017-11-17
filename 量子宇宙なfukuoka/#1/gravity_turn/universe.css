@@ -1,0 +1,60 @@
+#main
+{
+	width:				600px;
+	height:				600px;
+	background-image:	url( "universe.png" );
+	margin:				auto;
+	position:			relative;
+}
+
+#gravity
+{
+	position:	absolute;
+	width:		100px;
+	height:		100px;
+	left:		250px;
+	top:		250px;
+}
+
+#revolution0
+{
+	position:	absolute;
+	width:		50px;
+	height:		50px;
+	left:		475px;
+	top:		275px;
+}
+
+#data
+{
+	width:	400px;
+	border:	0px;
+	margin:	auto;
+}
+
+#data td { width: 100%; text-align: right; }
+
+#data input
+{
+	width:		80px;
+	text-align:	right;
+}
+
+.nm, .px, .py, .pa, .vx, .vy, .va .pv { width: 80px; }
+
+#console
+{
+	width:	200px;
+	border:	0px;
+	margin:	auto;
+}
+
+#console img
+{
+	display:	block;
+	width:		60px;
+	height:		60px;
+}
+
+#pause0, #step1, #start1 { display: none; }
+#pause0, #step0, #start0 { cursor: pointer; }
