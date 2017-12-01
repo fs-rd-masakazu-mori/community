@@ -3,7 +3,6 @@ from keras.models import Sequential
 from keras.layers import Dense, Activation
 from keras.layers.recurrent import LSTM
 from keras.optimizers import Adam
-from keras.callbacks import EarlyStopping
 import matplotlib.pyplot as plt
 
 def sin( x, T = 100 ):
