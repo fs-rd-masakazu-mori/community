@@ -22,7 +22,7 @@ plt.legend()
 plt.show()
 '''
 
-def build_dataset( inputs, n_prev = 100 ):
+def build_dataset( inputs ):
     input = []
     expected = []
     maxlen = 25
